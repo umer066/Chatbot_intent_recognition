@@ -1,0 +1,280 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! How can I assist you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Bye",
+        "Talk to you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later!",
+        "Bye! Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thanks a lot",
+        "Thank you very much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem!",
+        "Glad I could help!"
+      ]
+    },
+    {
+      "tag": "no_answer",
+      "patterns": [
+        "I don't know",
+        "I'm not sure",
+        "Can you help me?",
+        "I need assistance"
+      ],
+      "responses": [
+        "I'm not sure about that. Can you ask something else?",
+        "I'm here to help. Can you provide more details?",
+        "Let's try another question."
+      ]
+    },
+    {
+      "tag": "categories",
+      "patterns": [
+        "What are the different categories?",
+        "Tell me about the categories",
+        "List the categories in the competition"
+      ],
+      "responses": [
+        "The categories are: Dan/poom, K3, K2, K1, and Family.",
+        "Categories include Dan/poom, K3, K2, K1, and Family."
+      ]
+    },
+    {
+      "tag": "dan_cut_off",
+      "patterns": [
+        "Explain the cut-off system for Dan",
+        "How does the cut-off system work for Dan?",
+        "What are the rules for Dan cut-off?"
+      ],
+      "responses": [
+        "For Dan, if there are more than 20 competitors, 50% advance to the semi-finals. If there are 20 or fewer competitors, the competition goes directly to semi-finals with the top 8 advancing to finals."
+      ]
+    },
+    {
+      "tag": "k1_k2_k3_cut_off",
+      "patterns": [
+        "Explain the cut-off system for K1, K2, and K3",
+        "How does the cut-off system work for K1, K2, K3?",
+        "What are the rules for K1, K2, K3 cut-off?"
+      ],
+      "responses": [
+        "For K1, K2, and K3, if there are more than 12 competitors, the top 8 advance to the finals. If there are 12 or fewer competitors, the competition goes directly to finals."
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "how much is the payment?",
+        "payment details",
+        "cost per athlete"
+      ],
+      "responses": [
+        "Individual: 35 Euro per athlete",
+        "Pair: 40 Euro per pair",
+        "Team/Family: 40 Euro per team"
+      ]
+    },
+    {
+      "tag": "timeline",
+      "patterns": [
+        "event timeline",
+        "dates of the event",
+        "schedule"
+      ],
+      "responses": [
+        "Compulsory Poomsae Draw: Wednesday 29th of May, 20:00 pm CET",
+        "Registration Deadline: Friday 31st of May, 23:59 pm CET",
+        "Online Competition Date: Sunday 9th of June, 09:00 am CET"
+      ]
+    },
+    {
+      "tag": "method",
+      "patterns": [
+        "competition method",
+        "how is the competition conducted?",
+        "rules of the competition"
+      ],
+      "responses": [
+        "Competition will be held under World Taekwondo Poomsae rules.",
+        "The competition will run on a Cut Off System of up to 3 rounds for Dan/Poom categories."
+      ]
+    },
+    {
+      "tag": "family_category",
+      "patterns": [
+        "Explain the Family category",
+        "What are the rules for the Family category?",
+        "Tell me about the Family category"
+      ],
+      "responses": [
+        "In the Family category, at least two generations must participate (e.g., parent and child). There is an unlimited number of competitors, and the competition goes directly to finals with two forms recorded as per the competitor's choice."
+      ]
+    },
+    {
+      "tag": "k3_rules",
+      "patterns": [
+        "What are the rules for K3?",
+        "Tell me about K3 category",
+        "Explain K3 rules"
+      ],
+      "responses": [
+        "For K3 (10th-7th kup): The form is the competitor\u2019s choice, and forms can be repeated, even in the same round."
+      ]
+    },
+    {
+      "tag": "k2_rules",
+      "patterns": [
+        "What are the rules for K2?",
+        "Tell me about K2 category",
+        "Explain K2 rules"
+      ],
+      "responses": [
+        "For K2 (6th-3rd kup): The form is the competitor\u2019s choice, but forms cannot be repeated. All forms in both rounds must be different."
+      ]
+    },
+    {
+      "tag": "k1_rules",
+      "patterns": [
+        "What are the rules for K1?",
+        "Tell me about K1 category",
+        "Explain K1 rules"
+      ],
+      "responses": [
+        "For K1 (2nd-1st kup): Competitors must perform compulsory forms."
+      ]
+    },
+    {
+      "tag": "deduction_rules",
+      "patterns": [
+        "What are the deduction rules?",
+        "Explain the deduction rules",
+        "Tell me about the deduction rules for the online championship"
+      ],
+      "responses": [
+        "The deduction rules include:\n- 0.3 points for inadequate space, out of camera view, poor lighting, inaudible kihap;\n- 0.6 points for pets or people entering the field, whole body not seen, portrait mode video, form switch, same generation in Family category;\n- 0 score for wrong form, repeated form in K2, edited video, wrong division, political/religious displays, moving camera, single poomsae in video, and wearing incorrect attire or accessories."
+      ]
+    },
+    {
+      "tag": "accuracy_deductions",
+      "patterns": [
+        "What causes accuracy deductions?",
+        "Explain the accuracy deduction rules",
+        "What leads to accuracy deductions?"
+      ],
+      "responses": [
+        "Accuracy deductions include:\n- 0.3 points for inadequate space, out of camera view, poor lighting, inaudible kihap;\n- 0.6 points for pets or people entering the field, whole body not seen, portrait mode video, form switch, same generation in Family category;\n- 0.3 points for overtime (more than 90 seconds)."
+      ]
+    },
+    {
+      "tag": "disqualification_reasons",
+      "patterns": [
+        "What can cause disqualification?",
+        "Explain the disqualification reasons",
+        "What leads to disqualification?"
+      ],
+      "responses": [
+        "Disqualification can occur due to:\n- Video that has been edited or shows proof of editing;\n- Submission of wrong videos to wrong division;\n- Display of political, religious and non-recognized NOC flags;\n- Movement of camera during performance;\n- Only one taegeuk/poomsae recorded in the video;\n- A colored belt competing in a poom- or black belt category."
+      ]
+    },
+    {
+      "tag": "incorrect_attire",
+      "patterns": [
+        "What are the rules for attire?",
+        "Explain the rules for attire",
+        "What attire is not allowed?"
+      ],
+      "responses": [
+        "Incorrect attire includes:\n- Wearing shoes or socks;\n- Wearing jewelry or wristbands;\n- Wearing incorrect Dobok and incorrect belt."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "contact information",
+        "how to contact",
+        "organizer contact"
+      ],
+      "responses": [
+        "For any inquiries, please contact Master Kambiz Ramzan Ali at +44 (0)7944988806 or rangesportsuk@gmail.com."
+      ]
+    },
+    {
+      "tag": "pair_poomsae",
+      "patterns": [
+        "pair poomsae categories",
+        "pair poomsae division",
+        "pair poomsae rules"
+      ],
+      "responses": [
+        "Pair poomsae categories include Cadet, Junior, Under 30, and Over 30 divisions.",
+        "Compulsory Poomsae includes Taegeuk 4,5,6,7,8 Jang, Koryo, and Keumgang."
+      ]
+    },
+    {
+      "tag": "team_poomsae",
+      "patterns": [
+        "team poomsae categories",
+        "team poomsae division",
+        "team poomsae rules"
+      ],
+      "responses": [
+        "Team poomsae categories include Cadet, Junior, Under 30, and Over 30 divisions.",
+        "Compulsory Poomsae includes Taegeuk 4,5,6,7,8 Jang, Koryo, and Keumgang."
+      ]
+    },
+    {
+      "tag": "para_poomsae",
+      "patterns": [
+        "para poomsae categories",
+        "para poomsae division",
+        "para poomsae rules"
+      ],
+      "responses": [
+        "Para poomsae categories include Visual Impairments, Intellectually Impaired, Physical Impairments, Limb Deficiency, Wheelchair Classes, Deaf, Short Stature.",
+        "Participants must follow the specified Poomsae rules for each category."
+      ]
+    },
+    {
+      "tag": "family_poomsae",
+      "patterns": [
+        "family poomsae categories",
+        "family poomsae division",
+        "family poomsae rules"
+      ],
+      "responses": [
+        "Family poomsae allows one parent, parents, or grandparents together with their child or children or grandchildren.",
+        "At least two generations are required for a family team."
+      ]
+    }
+  ]
+}
